@@ -50,15 +50,17 @@ nav {
     display: flex;
     font-size: 16px;
     text-decoration: none;
+
 }
 
 nav a {
-    padding: 32px;
+    padding: 32px 32px 15px 32px;
     border-top: 2px solid transparent;
     text-decoration: none;
 }
 
 nav a:hover {
+
     color: #0065fc;
     border-top: 2px solid #0065fc;
 }
@@ -91,6 +93,7 @@ h3 {
 h4 {
     font-size: 14px;
 }
+
 
 .sub p {
     margin-bottom: 35px;
@@ -195,6 +198,8 @@ button {
 .icone_filtres {
     display: flex;
     margin: 0 10px 0 0;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .filter-btn {
@@ -204,16 +209,17 @@ button {
     border: 2px solid #f2f2f2;
     background-color: #ffff;
     font-weight: 700;
-    font-size: 17px;
     cursor: pointer;
     margin-right: 10px;
 }
+
+
 
 .filter p {
     align-items: center;
     margin: 4px 19px 4px 19px;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 16px;
     display: flex;
     margin-left: 10px;
     color: #000000;
@@ -230,6 +236,8 @@ button {
     border: 1px solid #F2F2F2;
     border-radius: 10px;
 }
+
+
 
 
 
@@ -555,6 +563,7 @@ button {
         flex-direction: column;
         align-items: center;
         border-bottom: 3px solid #f2f2f2;
+        margin: 0;
     }
 
 
@@ -565,9 +574,13 @@ button {
         justify-content: center;
     }
 
+    nav {
+        width: 100%;
+    }
 
     nav a {
-        padding: 32px;
+        width: 100%;
+        border-width: 50%;
         border-bottom: 2px solid transparent;
         text-decoration: none;
     }
@@ -575,6 +588,7 @@ button {
     nav a:hover {
         color: #0065fc;
         border-bottom: 2px solid #0065fc;
+        border-width: 50%;
         border-top: none;
     }
 
@@ -606,23 +620,43 @@ button {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
+
     .filter {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         margin: 0;
+    }
+
+    .fa-info-circle {
+        margin-top: 35px;
+    }
+
+    .filter p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    button {
+        height: 50px;
+        width: 50%;
+        font-size: 14px;
+        gap: 10px;
     }
 
     .btn-total {
         display: flex;
         flex-direction: row;
-        margin-bottom: 35px;
+        justify-content: flex-start;
+        margin: 0;
     }
 
     .filter-btn {
         display: flex;
         flex-direction: row;
-        margin: 10px;
+        margin: 0;
+        margin-bottom: 10px;
     }
 
     .filter-title {
@@ -663,6 +697,7 @@ button {
 
     .populaires {
         width: 100%;
+        margin: 0;
     }
 
     .populaires-cards {
@@ -673,6 +708,7 @@ button {
 
     .populaires-cards .card {
         width: 100%;
+        margin: 15px;
     }
 
     .populaires-cards .card-title {
@@ -688,6 +724,7 @@ button {
         display: flex;
         flex-direction: column;
         padding: 30px;
+        margin: 0;
     }
 
     .activity-section img {
