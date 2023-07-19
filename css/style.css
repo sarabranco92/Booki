@@ -301,6 +301,7 @@ button {
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
     border: 5px solid var(--white, #FFF);
+    cursor: pointer;
 }
 
 .card img {
@@ -505,6 +506,7 @@ button {
 .footer-list {
     font-size: 16px;
     line-height: 30px;
+    cursor: pointer;
 }
 
 /****** Media queries ***********/
@@ -665,7 +667,7 @@ button {
 
     .filter {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
         margin: 0;
     }
