@@ -30,3 +30,7 @@ Le projet met l'accent sur la création d'une interface utilisateur cohérente e
 - **Intégration web :** Compétence dans la conversion des maquettes en pages web statiques.
 - **Responsive Design :** Aptitude à créer une interface qui s'adapte aux différentes tailles d'écran.
 - **Collaboration :** Expérience de travail en étroite collaboration avec des équipes de développement et de design.
+
+## Setup and maintenance guide
+
+See the [project guide](docs/PROJECT_GUIDE.md) for repository-specific setup, commands, configuration, implementation limits and verification steps.
